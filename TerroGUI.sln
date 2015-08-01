@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Example", "TerroGU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Windows", "TerroGUI.Library.Windows\TerroGUI.Library.Windows.csproj", "{90E1C3EA-7EC5-4AC2-9578-573314C96068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Portable", "TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj", "{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Portable", "TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj", "{A22B6AFE-9282-424E-92AE-605C39EA0748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,16 +39,16 @@ Global
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|x86.ActiveCfg = Release|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|x86.ActiveCfg = Release|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A22B6AFE-9282-424E-92AE-605C39EA0748}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

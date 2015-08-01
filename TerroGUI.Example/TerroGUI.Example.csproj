@@ -14,7 +14,7 @@
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <MonoGameContentBuilderExe>
     </MonoGameContentBuilderExe>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -65,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj">
-      <Project>{d70f077e-9fcf-4d0e-a4a4-9c6c51bdd262}</Project>
+      <Project>{a22b6afe-9282-424e-92ae-605c39ea0748}</Project>
       <Name>TerroGUI.Library.Portable</Name>
     </ProjectReference>
   </ItemGroup>
