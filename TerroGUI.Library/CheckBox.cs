@@ -67,10 +67,10 @@ namespace TerroGUI
             this.Width = Bounds.Width;
             this.Height = Bounds.Height;
 
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice,1,1);
+            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
             Blank.SetData<Color>(new Color[] { Color.White });
             this.Blank = Blank;
-            
+
             this.MouseClicked += (object Source, MouseClickedEventArgs Args) => { if (Args.Button == MouseButton.Left) Checked = !Checked; };
 
             this.PreviousState = Checked;
@@ -101,7 +101,8 @@ namespace TerroGUI
         public override void Update(GameTime gameTime)
         {
             if (Checked != PreviousState)
-                ValueChanged(this, new CheckBoxEventArgs { Value = Checked });
+                if (ValueChanged != null)
+                    ValueChanged(this, new CheckBoxEventArgs { Value = Checked });
 
             PreviousState = Checked;
 
