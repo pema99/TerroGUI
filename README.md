@@ -1,3 +1,6 @@
+## Important note ##
+If you get an error while trying to build a game with a reference to TerroGUI, be sure to build against .NET 4.5. (Properties > Application > Target Framework)
+
 # About #
 TerroGUI is a GUI library for XNA and MonoGame, written by Pema99 ([Pema99.net](http://pema99.net)). It is free to use in any way, although it would be nice if you informed me before using it. Most of the code is documented and easy to follow.
 The library is currently a work in progress, and is not yet finished. I plan to add many more features. If you find any bugs, report them on this page or send me a mail at me@pema99.net with info.
@@ -46,7 +49,7 @@ TerroGUI is licensed under the zlib/libpng license:
 # Example #
 Below is an example of a window/form created using the library. It results in this: 
 
-![FwY4Guk.png](https://bitbucket.org/repo/dpM9GL/images/3668746138-FwY4Guk.png) 
+![FwY4Guk.png](https://bitbucket-assetroot.s3.amazonaws.com/repository/dpM9GL/3668746138-FwY4Guk.png?Signature=At40e3bMzK3SbrHuBT1vkUip%2FiU%3D&Expires=1438448043&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82) 
 
 Although (almost) everything is skinnable, for the sake of simplicity, I just used solid colors in this example. The font used in this example is "Open Sans", size 10. (Disregard the misleading "Courier New")    
 
