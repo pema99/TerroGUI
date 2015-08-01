@@ -46,7 +46,7 @@ TerroGUI is licensed under the zlib/libpng license:
 # Example #
 Below is an example of a window/form created using the library. It results in this: 
 
-![FwY4Guk.png](https://bitbucket.org/repo/dpM9GL/images/3668746138-FwY4Guk.png) 
+![FwY4Guk.png](https://bitbucket-assetroot.s3.amazonaws.com/repository/dpM9GL/3668746138-FwY4Guk.png?Signature=At40e3bMzK3SbrHuBT1vkUip%2FiU%3D&Expires=1438448043&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82) 
 
 Although (almost) everything is skinnable, for the sake of simplicity, I just used solid colors in this example. The font used in this example is "Open Sans", size 10. (Disregard the misleading "Courier New")    
 
