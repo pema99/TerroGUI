@@ -1,3 +1,6 @@
+## Important note ##
+If you get an error while trying to build a game with a reference to TerroGUI, be sure to build against .NET 4.5. (Properties > Application > Target Framework)
+
 # About #
 TerroGUI is a GUI library for XNA and MonoGame, written by Pema99 ([Pema99.net](http://pema99.net)). It is free to use in any way, although it would be nice if you informed me before using it. Most of the code is documented and easy to follow.
 The library is currently a work in progress, and is not yet finished. I plan to add many more features. If you find any bugs, report them on this page or send me a mail at me@pema99.net with info.
