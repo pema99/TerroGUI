@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Example", "TerroGUI.Example\TerroGUI.Example.csproj", "{3A16B251-F798-455C-AF98-B940E0B674B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Windows", "TerroGUI.Library.Windows\TerroGUI.Library.Windows.csproj", "{90E1C3EA-7EC5-4AC2-9578-573314C96068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Portable", "TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj", "{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,26 @@ Global
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|x86.ActiveCfg = Release|x86
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|x86.Build.0 = Release|x86
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Release|x86.ActiveCfg = Release|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D70F077E-9FCF-4D0E-A4A4-9C6C51BDD262}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

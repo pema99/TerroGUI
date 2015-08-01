@@ -52,9 +52,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
-    <Reference Include="TerroGUI.Library">
-      <HintPath>..\TerroGUI.Library\bin\Debug\TerroGUI.Library.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
@@ -65,6 +62,12 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Content\Courier New.spritefont" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj">
+      <Project>{d70f077e-9fcf-4d0e-a4a4-9c6c51bdd262}</Project>
+      <Name>TerroGUI.Library.Portable</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
