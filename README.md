@@ -1,9 +1,7 @@
 ## Important note ##
 TerroGUI.Library.Windows is Windows specific, and requires .NET Framework 4.5 or higher. Note that the default target for MonoGame projects is 4.0, although this can be changed in Properties -> Application -> Target Framework.
 
-TerroGUI.Library.Portable supports multiple platforms, such as OSX and Linux. This version of the library only requires .NET Framework 4.0, the default.
-
-You always have the option to circumvent all this platform mess, by simply copying the source files into your project. This is probably the easiest solution.
+TerroGUI.Library.Portable supports multiple platforms, such as OSX and Linux. This version of the library only requires .NET Framework 4.0, the default. This is more than often the better choice.
 
 # About #
 TerroGUI is a GUI library for XNA and MonoGame, written by Pema99 ([Pema99.net](http://pema99.net)). It is free to use in any way, although it would be nice if you informed me before using it. Most of the code is documented and easy to follow.
