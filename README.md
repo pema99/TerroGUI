@@ -69,6 +69,7 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 			GraphicsDeviceManager graphics;
 			SpriteBatch spriteBatch;
 
+			//Declare Container in the main class
 			public Container Form; 
 
 			public Game1()
@@ -88,6 +89,7 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 			{
 				SpriteFont Font = Content.Load<SpriteFont>("Courier New");
 				
+				//Initialize container
 				Form = new Container(this, new Rectangle(50, 50, 300, 200), Color.Black);
 				
 				Label TestLabel = new Label(Form, new Point(10, 20), Font, Color.Red, "Label");
@@ -117,7 +119,7 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 				};
 
 				TextBox TestText = new TextBox(Form, Font, Color.White, Color.Red, new Rectangle(150, 130, 100, 20), "Hey");
-
+				//Add controls to container
 				Form.Controls.Add(TestLabel);
 				Form.Controls.Add(TestButton);
 				Form.Controls.Add(TestBox);
@@ -138,6 +140,7 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 				if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
 					Exit();
 
+				//Update container
 				Form.Update(gameTime);
 
 				base.Update(gameTime);
@@ -147,7 +150,8 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 			{
 				GraphicsDevice.Clear(Color.CornflowerBlue);
 				spriteBatch.Begin();
-
+	
+				//Draw container
 				Form.Draw(spriteBatch);
 
 				spriteBatch.End();
