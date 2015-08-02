@@ -1,4 +1,4 @@
-## Important note ##
+# Important note #
 TerroGUI.Library.Windows is Windows specific, and requires .NET Framework 4.5 or higher. Note that the default target for MonoGame projects is 4.0, although this can be changed in Properties -> Application -> Target Framework.
 
 TerroGUI.Library.Portable supports multiple platforms, such as OSX and Linux. This version of the library only requires .NET Framework 4.0, the default. This is more than often the better choice.
