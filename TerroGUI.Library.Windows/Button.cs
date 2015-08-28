@@ -33,8 +33,6 @@ namespace TerroGUI
             set
             {
                 text = value;
-                this.Width = (int)Font.MeasureString(value).X;
-                this.Height = (int)Font.MeasureString(value).Y;
             }
         }
 
