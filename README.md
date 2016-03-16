@@ -88,7 +88,7 @@ Although (almost) everything is skinnable, for the sake of simplicity, I just us
 				SpriteFont Font = Content.Load<SpriteFont>("Courier New");
 				
 				//Initialize container
-				Form = new Container(this, new Rectangle(50, 50, 300, 200), Color.Black);
+				Form = new Container(GraphicsDevice, new Rectangle(50, 50, 300, 200), Color.Black);
 				
 				Label TestLabel = new Label(Form, new Point(10, 20), Font, Color.Red, "Label");
 				
