@@ -53,7 +53,7 @@ namespace TerroGUI
             this.Width = Bounds.Width;
             this.Height = Bounds.Height;
 
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { ButtonColor });
             this.ButtonTexture = Blank;
         }

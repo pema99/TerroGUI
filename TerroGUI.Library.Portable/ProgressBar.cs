@@ -44,11 +44,11 @@ namespace TerroGUI
         public ProgressBar(Container Parent, Color BackgroundColor, Color ForegroundColor, Rectangle Bounds) 
             : base(Parent)
         {
-            Texture2D Background = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Background = new Texture2D(Parent.Main, 1, 1);
             Background.SetData<Color>(new Color[] { BackgroundColor });
             this.BackgroundTexture = Background;
 
-            Texture2D Foreground = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Foreground = new Texture2D(Parent.Main, 1, 1);
             Foreground.SetData<Color>(new Color[] { ForegroundColor });
             this.ForegroundTexture = Foreground;
 
@@ -64,7 +64,7 @@ namespace TerroGUI
         {
             this.BackgroundTexture = Background;
 
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { ForegroundColor });
             this.ForegroundTexture = Blank;
 
@@ -78,7 +78,7 @@ namespace TerroGUI
         public ProgressBar(Container Parent, Color BackgroundColor, Texture2D Foreground, Rectangle Bounds)
             : base(Parent)
         {
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { BackgroundColor });
             this.BackgroundTexture = Blank;
 
@@ -121,7 +121,7 @@ namespace TerroGUI
         /// </summary>
         public void SetBackgroundColor(Color BackgroundColor)
         {
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { BackgroundColor });
             this.BackgroundTexture = Blank;
         }
@@ -131,7 +131,7 @@ namespace TerroGUI
         /// </summary>
         public void SetForegroundColor(Color ForegroundColor)
         {
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { ForegroundColor });
             this.ForegroundTexture = Blank;
         }

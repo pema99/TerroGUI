@@ -64,7 +64,7 @@ namespace TerroGUI
         {
             this.Font = Font;
 
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { BoxColor });
             this.BoxTexture = Blank;
 
@@ -158,7 +158,7 @@ namespace TerroGUI
         /// </summary>
         public void SetBackgroundColor(Color BackgroundColor)
         {
-            Texture2D Blank = new Texture2D(Parent.Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Parent.Main, 1, 1);
             Blank.SetData<Color>(new Color[] { BackgroundColor });
             this.BoxTexture = Blank;
         }
