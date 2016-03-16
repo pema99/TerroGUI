@@ -45,11 +45,11 @@ namespace TerroGUI
         public Texture2D Background { get; set; }
 
         /// <summary>
-        /// Reference to main class, internal use only.
+        /// Reference to a needed GraphicsDevice, internal use only.
         /// </summary>
-        public Game Main { get; set; }
+		public GraphicsDevice Main { get; set; }
 
-        public Container(Game Main, Rectangle Bounds, Color ContainerColor, bool Visible = true)
+		public Container(GraphicsDevice Main, Rectangle Bounds, Color ContainerColor, bool Visible = true)
         {
             this.Main = Main;
             this.Controls = new List<Control>();
@@ -59,12 +59,12 @@ namespace TerroGUI
             this.Height = Bounds.Height;
             this.Visible = Visible;
 
-            Texture2D Blank = new Texture2D(Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Main, 1, 1);
             Blank.SetData<Color>(new Color[] { ContainerColor });
             this.Background = Blank;
         }
 
-        public Container(Game Main, Rectangle Bounds, Texture2D Background, bool Visible = true)
+		public Container(GraphicsDevice Main, Rectangle Bounds, Texture2D Background, bool Visible = true)
         {
             this.Main = Main;
             this.Controls = new List<Control>();
@@ -117,7 +117,7 @@ namespace TerroGUI
         /// </summary>
         public void SetBackgroundColor(Color ContainerColor)
         {
-            Texture2D Blank = new Texture2D(Main.GraphicsDevice, 1, 1);
+            Texture2D Blank = new Texture2D(Main, 1, 1);
             Blank.SetData<Color>(new Color[] { ContainerColor });
             this.Background = Blank;
         }
