@@ -47,9 +47,9 @@ namespace TerroGUI
         /// <summary>
         /// Reference to a needed GraphicsDevice, internal use only.
         /// </summary>
-		public GraphicsDevice Main { get; set; }
+	public GraphicsDevice Main { get; set; }
 
-		public Container(GraphicsDevice Main, Rectangle Bounds, Color ContainerColor, bool Visible = true)
+	public Container(GraphicsDevice Main, Rectangle Bounds, Color ContainerColor, bool Visible = true)
         {
             this.Main = Main;
             this.Controls = new List<Control>();
@@ -64,7 +64,7 @@ namespace TerroGUI
             this.Background = Blank;
         }
 
-		public Container(GraphicsDevice Main, Rectangle Bounds, Texture2D Background, bool Visible = true)
+	public Container(GraphicsDevice Main, Rectangle Bounds, Texture2D Background, bool Visible = true)
         {
             this.Main = Main;
             this.Controls = new List<Control>();
