@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3A16B251-F798-455C-AF98-B940E0B674B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -65,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj">
-      <Project>{a22b6afe-9282-424e-92ae-605c39ea0748}</Project>
+      <Project>{A22B6AFE-9282-424E-92AE-605C39EA0748}</Project>
       <Name>TerroGUI.Library.Portable</Name>
     </ProjectReference>
   </ItemGroup>

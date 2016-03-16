@@ -52,13 +52,13 @@
     <Reference Include="System.Drawing" />
     <Reference Include="MonoMac" />
     <Reference Include="MonoGame.Framework">
-      <HintPath>..\packages\MonoGame.Framework.MacOS.3.3.0.0\lib\net45\MonoGame.Framework.dll</HintPath>
+      <HintPath>..\packages\MonoGame.Framework.MacOS.3.5.0.1678\lib\net45\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Tao.Sdl">
-      <HintPath>..\packages\MonoGame.Framework.MacOS.3.3.0.0\lib\net45\Tao.Sdl.dll</HintPath>
+      <HintPath>..\packages\MonoGame.Framework.MacOS.3.5.0.1678\lib\net45\Tao.Sdl.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK">
-      <HintPath>..\packages\MonoGame.Framework.MacOS.3.3.0.0\lib\net45\OpenTK.dll</HintPath>
+      <HintPath>..\packages\MonoGame.Framework.MacOS.3.5.0.1678\lib\net45\OpenTK.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

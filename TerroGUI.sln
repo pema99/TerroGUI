@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Example", "TerroGUI.Example\TerroGUI.Example.csproj", "{3A16B251-F798-455C-AF98-B940E0B674B5}"
@@ -8,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Windows", "TerroGUI.Library.Windows\TerroGUI.Library.Windows.csproj", "{90E1C3EA-7EC5-4AC2-9578-573314C96068}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.Library.Portable", "TerroGUI.Library.Portable\TerroGUI.Library.Portable.csproj", "{A22B6AFE-9282-424E-92AE-605C39EA0748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerroGUI.MacExample", "TerroGUI.MacExample\TerroGUI.MacExample.csproj", "{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,18 @@ Global
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|x86.ActiveCfg = Release|x86
 		{3A16B251-F798-455C-AF98-B940E0B674B5}.Release|x86.Build.0 = Release|x86
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F5B155E-B27D-488E-9105-ABFA4CB35DE2}.Release|x86.Build.0 = Release|Any CPU
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E1C3EA-7EC5-4AC2-9578-573314C96068}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
